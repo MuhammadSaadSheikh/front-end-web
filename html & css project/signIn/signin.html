@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../signUp/css/signup.css">
+</head>
+<body>
+    <div class="headerWrapper">
+        <div class="logoWrapper">
+            <!-- <img src="../img/logo.png" alt="logo" class="headerImg"> -->
+            <h1 class="heading">Quiz App</h1>
+        </div>
+        <div class="userProfileWrapper"></div>
+    </div>
+    <div class="inputWrapper">
+        <h1>SignIn</h1>
+        <input type="email" placeholder="User Email" class="dataWrapper" id="userEmail" onfocus="changeInputField('userEmail', true)" onblur="changeInputField('userEmail' , false)">
+        <input type="password" placeholder="Password" class="dataWrapper" id="userPassword" onfocus="changeInputField('userPassword', true)" onblur="changeInputField('userPassword' , false)">
+        <button class="signIn" onclick="signIn()" id="signInBtn">SignIn</button>
+        <button class="signUp" onclick="signUp()" id="signUpBtn">SignUp</button>
+        <button class="forgetPasswrod" onclick="forgetPasswrod()" id="forgetPasswrodBtn">Forget Password</button>
+    </div>
+</body>
+<script src="js/sigin.js"></script>
+</html>

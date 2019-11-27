@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ATM</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="mainWrapper">
+            <div class="nestedChild1">
+                <div class="heading">
+                    <p>ATM</p>
+                </div>
+                <div class="details">
+                    <div class="userData">
+                        <div class="data" >
+                            <h4>Welcome</h4>
+                            <p id='userName'></p>
+                        </div>
+                        <div class="data">
+                            <h4>Account</h4>
+                            <p id='userAccountNum'></p>
+                        </div>
+                        <div class="data">
+                            <h4>Balance</h4>
+                            <p id="userBalance"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nestedChild2">
+                <div class="heading2">
+                    <p onclick="logOut()">Card Return</p>
+                    <img src="img/return-card.png" alt="insert-card" class="insertCard">
+                </div>
+                <div class="optionContainer">
+                    <div class="optionsWrapper">
+                        <div class="optionOneContainer">
+                            <div class="option">
+                                <p>Get Cash</p>
+                            </div>
+                            <div class="option">
+                                <p>Payments</p>
+                            </div>
+                            <div class="option">
+                                <p>Account Settings</p>
+                            </div>
+                        </div>
+                        <div class="optionTwoContainer">
+                            <div class="option">
+                                <p>Deposit</p>
+                            </div>
+                            <div class="option">
+                                <p>Credit Card</p>
+                            </div>
+                            <div class="option">
+                                <p>Others</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttonWrapper">
+                        <div class="container1"></div>
+                        <div class="container2">
+                            <p onclick="getCash()"> Quick Cash</p>
+                            <p>></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="./js/app.js"></script>
+
+</html>

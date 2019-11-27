@@ -1,0 +1,58 @@
+body{
+    background-color:rgb(29, 29, 51) ;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.testSreachingWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    /* border: 1px solid red */
+}
+
+.quizListWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid grey; */
+    margin-top: 40px;
+}
+
+.searchQuiz{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    width: 15%;
+    background-color:rgb(29, 29, 51) ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-bottom: 1px solid grey;
+    color: grey;
+}
+
+.quizWrapper{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 40%;
+    background-color: rgba(255, 165, 0, 0.6);
+    font-weight: 100;
+    font-size: 17px;
+    border-radius: 50px;
+    margin: 10px;
+    /* margin-left: 60px; */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+@media(max-width: 700px){
+
+}

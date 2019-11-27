@@ -1,0 +1,61 @@
+.inputWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-top: 20px;
+    color:  rgb(78, 88, 92);
+    transition: 0.8s;
+}
+h1:hover{
+    color: orange;
+    transition: 0.8s;
+}
+
+.dataWrapper{
+    width: 18%;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    border: rgb(78, 88, 92) 2px solid;
+    background-color: rgba(72, 110, 148, 0.2 );
+    color: white;
+    outline: none;
+}
+
+
+.signUp, .signIn, .forgetPasswrod, .send{
+    width: 13%;
+    color: orange;
+    background-color: rgb(78, 88, 92);
+    height: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.signUp:hover, .signIn:hover, .forgetPasswrod:hover, .send:hover{
+    color: white;
+    background-color: orange;
+    transition: 0.5s;
+    width: 15%;
+    height: 38px;
+}
+
+@media(max-width : 700px){
+    .dataWrapper{
+        width: 38%;
+        font-size: 13px;
+    }
+    .signUp, .signIn, .forgetPasswrod, .send{
+        width: 25%;
+    }
+}

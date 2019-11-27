@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <div class="headerWrapper">
+        <div class="logoWrapper">
+            <h1 class="heading">Quiz App</h1>
+        </div>
+        <div class="userProfileWrapper"></div>
+    </div>
+    <div class="inputWrapper">
+        <h1>SignUp</h1>
+        <input type="text" placeholder="First Name" class="dataWrapper" id="firstName" onfocus="changeInputField('firstName', true)" onblur="changeInputField('firstName', false)">
+        <input type="text" placeholder="Last Name" class="dataWrapper" id="lastName" onfocus="changeInputField('lastName', true)" onblur="changeInputField('lastName' , false)">
+        <input type="text" placeholder="User Name" class="dataWrapper" id="userName" onfocus="changeInputField('userName', true)" onblur="changeInputField('userName' , false)">
+        <input type="email" placeholder="User Email" class="dataWrapper" id="userEmail" onfocus="changeInputField('userEmail', true)" onblur="changeInputField('userEmail' , false)">
+        <input type="password" placeholder="Password" class="dataWrapper" id="userPassword" onfocus="changeInputField('userPassword', true)" onblur="changeInputField('userPassword' , false)">
+        <input type="password" placeholder="Confirm Password" class="dataWrapper" id="confirmPassword" onfocus="changeInputField('confirmPassword', true)" onblur="changeInputField('confirmPassword' , false)">
+        <button class="signUp" onclick="signUp()" id="signUpBtn">SignUp</button>
+        <button class="signIn" onclick="signIn()" id="signInBtn">SignIn</button>
+    </div>
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+<script src="js/signup.js"></script>
+</html>

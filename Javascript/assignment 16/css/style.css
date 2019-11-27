@@ -1,0 +1,29 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif
+}
+
+.heading, .task5, .task6{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 30px;
+}
+.nestedWrapper, .imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red */
+}
+
+.nestedWrapper div ,.imgs div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+    width: auto;
+    height: auto;
+}
