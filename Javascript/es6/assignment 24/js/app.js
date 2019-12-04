@@ -32,3 +32,9 @@
 //    return val
 // })
 // console.log(abc)
+
+
+let arr = [11,23,55,12]
+console.log(arr)
+let abc = new Set(arr)
+console.log(abc)
