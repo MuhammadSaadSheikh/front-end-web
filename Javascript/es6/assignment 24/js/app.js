@@ -33,8 +33,8 @@
 // })
 // console.log(abc)
 
-
-let arr = [11,23,55,12]
-console.log(arr)
-let abc = new Set(arr)
-console.log(abc)
+//set
+// let arr = [11,23,54,23,23,54,21,55,12]
+// console.log(arr)
+// let abc = new Set(arr) //check same value
+// console.log(abc)
